@@ -38,5 +38,5 @@
 /vendor_a           emmc      /dev/block/mapper/vendor_a                                    flags=display="Vendor Image";backup=0;flashimg=1
 
 # Removable
-/external_sd        auto      /dev/block/mmcblk1p1      /dev/block/mmcblk1                  flags=storage;wipeingui;removable
-/usb-otg            vfat      /dev/block/sda1           /dev/block/sdd                      flags=storage;wipeingui;removable
+/sdcard1            auto      /dev/block/mmcblk1p1      /dev/block/mmcblk1                  flags=display="MicroSD";removable;storage;wipeingui
+/usb-otg            vfat      /dev/block/sda1           /dev/block/sdd                      flags=display="USB OTG";removable;storage;wipeingui
